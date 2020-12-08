@@ -40,7 +40,7 @@ cdk deploy
 cdk destroy
 ```
 
-soure from: https://rancher.com/blog/2020/rke2-supports-amazon-eks-distro
+source from: https://rancher.com/blog/2020/rke2-supports-amazon-eks-distro
 
 see more rke2: https://docs.rke2.io/install/quickstart/
 
