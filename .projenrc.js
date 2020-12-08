@@ -1,7 +1,7 @@
 const { AwsCdkTypeScriptApp } = require('projen');
 
 const project = new AwsCdkTypeScriptApp({
-  cdkVersion: '1.76.0',
+  cdkVersion: '1.77.0',
   name: 'rke2lab',
   cdkDependencies: [
     '@aws-cdk/aws-ec2',
