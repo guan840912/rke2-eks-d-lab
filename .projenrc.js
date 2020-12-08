@@ -9,6 +9,7 @@ const project = new AwsCdkTypeScriptApp({
   deps: [
     'cdk-spot-one@0.6.100',
   ],
+  dependabot: false,
 });
 project.gitignore.exclude(['kube-config.yml']);
 project.synth();
