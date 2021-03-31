@@ -10,6 +10,8 @@ const project = new AwsCdkTypeScriptApp({
     'cdk-spot-one@0.6.100',
   ],
   dependabot: false,
+  defaultReleaseBranch: 'main',
+  dependabot: false,
 });
-project.gitignore.exclude(['kube-config.yml']);
+project.gitignore.exclude(...['kube-config.yml', '.DS_Store', 'cdk.context.json']);
 project.synth();
